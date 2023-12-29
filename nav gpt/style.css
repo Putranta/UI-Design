@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 200vh;
+  }
+  
+  nav {
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    bottom: 20px;
+    z-index: 1000; 
+  }
+  
+  #navbar {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-link:hover {
+    background-color: #555;
+  }
+  
+  .active {
+    background-color: #555;
+  }
+  
+  @media (max-width: 768px) {
+
+  }
+  
